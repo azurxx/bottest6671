@@ -18,7 +18,7 @@ bot.on("ready",()=>{
     },1000);
 })
  
-bot.login(NDkzMzc3MDEzNjEzMzMwNDMy.DwxPsA.lh-UrZW91AkIYmGBoIx9mydZiEU);
+bot.login(process.env.TOKEN);
  
 // You can run the program by typing node index in cmd
 // The program starts after the time interval is once over
